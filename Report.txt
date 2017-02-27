@@ -1,0 +1,35 @@
+Assignment 1 Report
+
+Name: Aravind Utpat Vijendra
+
+1. Performance on the development data with 100% of the training data
+1a. spam precision: 0.993088  (99.3088%)
+1b. spam recall:    0.977414  (97.7414%)
+1c. spam F1 score:  0.985189  (98.5189%)
+1d. ham precision:  0.946726  (94.6726%)
+1e. ham recall:     0.983333  (98.3333%)
+1f. ham F1 score:   0.964682  (96.4682%)
+
+2. Performance on the development data with 10% of the training data
+2a. spam precision:  0.983821  (98.3821%)
+2b. spam recall:     0.959727  (95.9727%)
+2c. spam F1 score:   0.971625  (97.1625%)
+2d. ham precision:   0.906918  (90.6918%)
+2e. ham recall:      0.961333  (96.1333%)
+2f. ham F1 score:    0.933333  (93.3333%)
+
+3. Description of enhancement(s) you tried (e.g., different approach(es) to smoothing, treating
+common words differently, dealing with unknown words differently):
+
+The enhancement I tried is ignoring stopwords and punctuations. Common words such as "it", "was", "are", "the" etc.. do
+not help us identify the document as Spam or Ham. Also, punctuations can be unnecessary to identify the class.
+So, whenever I find these predetermined stopwords and punctuations in the document, I ignore them.
+
+4. Best performance results based on enhancements. Note that these could be the same or worse than
+the standard implementation.
+4a. spam precision:  0.991030     (99.1030%)
+4b. spam recall:     0.992108     (99.2108%)
+4c. spam F1 score:   0.991569     (99.1569%)
+4d. ham precision:   0.980614     (98.0614%)
+4e. ham recall:      0.978        (97.8%)
+4f. ham F1 score:    0.979305     (97.9305%)
